@@ -12,6 +12,7 @@ public class Exercise {
     // Esercizio 5 / Estrarre le fatture con importo inferiore a 1000 e i dati dei clienti ad esse collegate.
     // select numero_fattura, importo, id_cliente from fatture where importo < 1000;
     // Esercizo 6 / Rporta l'elenco delle fatture(numero, importo, iva e data) con il numero del fornitore.
-    // select numero_fattura, importo, iva, data_fattura from fatture using numero_fornitore
+    // select numero_fattura, importo, iva, data_fattura from fatture join fornitori using (numero_fornitore)
+    //
 
 }
